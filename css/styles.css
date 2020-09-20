@@ -1,0 +1,158 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+	background-color: #ff4c68;
+	padding: 3% 15%;
+}
+
+#title-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #ffffff;
+}
+
+
+#brand-name {
+	font-size: 2.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.navbar {
+	padding: 0  0 4.5rem !important;
+}
+
+.nav-item {
+	padding: 0 1rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.download-button {
+	padding: 2%;
+}
+
+.title-image {
+	width: 280px;
+	transform: rotate(20deg);
+	position: absolute;
+	right: 20%;
+}
+
+.feauture-icon {
+	color: #ef8172;
+}
+
+.feauture-icon:hover {
+	color: #ff4c68;
+}
+
+.feauture-col {
+	text-align: center;
+}
+
+.feauture-col h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.feauture-col p{
+	color: #8f8f8f;
+}
+
+#features {
+	position: relative;
+	z-index: 1;
+	padding: 7% 15%;
+	background-color: #ffffff;
+}
+
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #ffffff;
+}
+
+.testimonial-image {
+	width: 150px;
+	border-radius: 100%;
+	padding: 2% 2%;
+}
+
+#press {
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 1rem 1.5rem 2rem;
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+#pricing {
+	padding: 7%;
+	text-align: center;
+}
+
+#pricing h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+
+#pricing-text {
+	color: #8f8f8f;
+}
+
+.column-card {
+	padding: 3%;
+}
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		padding-top: 2%;
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 7%;
+}
+
+#cta h3 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 3.5rem;
+	padding-bottom: 3%;
+}
+
+#footer {
+	text-align: center;
+	padding: 3% 0 1%;
+}
+
+#footer p {
+	color: #8f8f8f;
+}
+
+.footer-icons {
+	padding: 0 1% 1%;
+}
